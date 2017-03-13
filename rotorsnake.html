@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style_rotorsnake.css"> <!-- Stylesheet with specific styling for only this page -->
+
+    <link rel="stylesheet" href="style/style_general.css"> <!-- Link to stylesheet holding the general style for all the pages -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- Enables jquery/javascript libraries, don't touch this! -->
+
+    <link rel="icon" type="image/png" href="style/img/favi_sabik.png"> <!-- Changes the icon on the website tab, has to be 16x16 -->
+    <title>Sabik - RotorSnake2</title>
+  </head>
+  <body onload="align_vertical(); show_joe(); nav_center()" onresize="align_vertical()">
+    <header>
+      <div class="header_wrapper"> <!-- header_wrapper wraps all the content inside the header tag, which allows for easier placement on the site -->
+        <div class="page_title"> <h1>Roller Joe 3D</h1> </div>
+        <div class="nav"> <!-- Nav, ul and li creates the navigation menu -->
+          <ul> <!-- Unordered list -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rollerjoe.html">RollerJoe</a></li>
+            <li><a class="active" href="#">RotorSnake</a></li> <!-- the li holding the class "active" will color the section currently in -->
+          </ul>
+        </div>
+        <div class="rotor_content"> <!-- Holds the content below the navigation menu -->
+          <div class="rotor_bck"></div> <!-- Holds the faded background img, necessary to set the opacity different fron the content infront -->
+          <div class="rotor_snake"> <!-- Holds the single image on the page, placed to the left -->
+            <img src="style/img/rotor2.png" alt="">
+          </div>
+          <div class="rotor_right"> <!-- Text content next to the image i placed to the right -->
+            <h2>Rotorsnake 2!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    <script src="javascript/script.js"></script> <!-- Loads the javascript file, has to be the last think loaded. The script changes elements on the site and only workjs if they are loaded first -->
+  </body>
+</html>

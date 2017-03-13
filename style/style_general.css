@@ -1,0 +1,41 @@
+@font-face { font-family: sub_titles; src: url("FFF_Light_TRIAL.ttf"); }
+@font-face { font-family: main_title; src: url("Heroes_Legend.ttf"); }
+@font-face { font-family: read; src: url("Mermaid1001.ttf"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("img/bck.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+h1, h2, h3, p { color: #FFFFFF; text-align: center; font-family: main_title; }
+h1 { font-size: 80px; }
+h2 { font-size: 22px; }
+h3 { font-size: 15px; }
+p, a { font-family: sub_titles; }
+p { font-family: Arial; }
+a { font-size: 25px; text-decoration: none; color: #000000; }
+header { height: 100vh; width: 1000px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); }
+.header_wrapper { height: 800px; opacity: 0; transition: all 1s; }
+.page_title h1 { margin: 0; }
+.nav { margin: 0 auto 25px auto; }
+.nav ul {
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.nav ul li { float: left; margin: 0; }
+.nav ul li a { padding: 5px 20px; display: block;}
+.nav ul li a:hover { background-color: #FF7D40; }
+.active { background-color: #FF7D40; }

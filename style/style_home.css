@@ -1,0 +1,22 @@
+.mid_wrapper {
+  width: 810px;
+  height: 550px;
+  margin: 0 auto;
+}
+.rotorsnake, .rollerjoe, .facebook {
+  float: left;
+  margin: 0 10px;
+}
+.rotorsnake img, .rollerjoe img {
+  width: 250px;
+}
+.rotorsnake h2, .rollerjoe h2, .facebook h2 {
+  text-decoration: underline;
+  font-family: main_title;
+}
+.facebook {
+  width: 250px;
+  height: 532px;
+  float: left;
+}
+.facebook h2 { color: #3B5998; }

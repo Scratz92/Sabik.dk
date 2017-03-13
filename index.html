@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<!--HELLO-->
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style_home.css">
+
+    <link rel="stylesheet" href="style/style_general.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="icon" type="image/png" href="style/img/favi_sabik.png">
+    <title>Sabik.dk</title>
+  </head>
+
+  <body onload="align_vertical(); show_joe(); nav_center()" onresize="align_vertical()">
+    <!--
+    Facebook SDK import nothing to change
+    -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.8&appId=1688833044746679";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook SDK ends -->
+
+    <header>
+      <div class="header_wrapper">
+        <div class="page_title"> <h1>Sabik.dk</h1> </div>
+        <div class="nav">
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="rollerjoe.html">RollerJoe</a></li>
+            <li><a href="rotorsnake.html">RotorSnake</a></li>
+          </ul>
+        </div>
+        <div class="mid_games">
+          <div class="mid_wrapper">
+            <div class="rotorsnake">
+              <h2>RotorSnake</h2>
+              <img src="style/img/ori1.png" alt="">
+            </div>
+            <div class="rollerjoe">
+              <h2>RollerJoe3D</h2>
+              <img src="style/img/ori2.png" alt="">
+            </div>
+            <div class="facebook">
+              <h2>Facebook</h2>
+              <div class="fb-page" data-href="https://www.facebook.com/RollerJoe3D/?fref=ts" data-tabs="timeline" data-width="250" data-height="430" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/RollerJoe3D/?fref=ts" class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/RollerJoe3D/?fref=ts">Roller Joe 3D</a>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_facebook">
+
+        </div>
+      </div>
+    </header>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
